@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/dog_inp/__init__.py
+src/dog_inp/menu.py
+src/dog_inp.egg-info/PKG-INFO
+src/dog_inp.egg-info/SOURCES.txt
+src/dog_inp.egg-info/dependency_links.txt
+src/dog_inp.egg-info/top_level.txt

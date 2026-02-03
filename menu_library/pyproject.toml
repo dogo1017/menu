@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dog_inp"
+version = "0.1.0"
+authors = [
+  { name="Douglas London", email="douglas.london@ucas-edu.net" },
+]
+description = "An interactive Windows CLI menu with support for toggles, numbers, and text input."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/dogo1017/menu"
