@@ -10,4 +10,4 @@ A lightweight, interactive menu for Windows command line interfaces.
 
 ## Installation
 ```bash
-pip install your_library_name
+pip install dog_inp
