@@ -1,5 +1,27 @@
 Metadata-Version: 2.4
 Name: dog_inp
-Version: 0.0.0
+Version: 0.1.0
+Summary: An interactive Windows CLI menu with support for toggles, numbers, and text input.
+Author-email: Douglas London <douglas.london@ucas-edu.net>
+Project-URL: Homepage, https://github.com/dogo1017/menu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
 License-File: LICENSE
 Dynamic: license-file
+
+# Windows CLI Menu
+
+A lightweight, interactive menu for Windows command line interfaces. 
+
+## Features
+- Arrow key navigation
+- Numerical sliders
+- Toggle options
+- Writable text fields
+
+## Installation
+```bash
+pip install dog_inp

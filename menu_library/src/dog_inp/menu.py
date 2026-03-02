@@ -1,6 +1,7 @@
 def menu(options, **mod):
     import os
     import msvcrt   
+    title = mod.get('heading')
     number = mod.get('number', [])
     writable = mod.get('writable', [])
     toggle = mod.get('toggle', [])
@@ -39,6 +40,8 @@ def menu(options, **mod):
     
     while True:
         os.system('cls')
+        if title:
+            print(title)
         for i, option in enumerate(options):
             prefix = "> " if i == index else "  " 
             if i in writable:
