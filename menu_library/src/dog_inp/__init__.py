@@ -1,1 +1,1 @@
-from dog_inp import menu
+from .menu import menu
